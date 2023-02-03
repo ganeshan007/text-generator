@@ -15,7 +15,7 @@ with st.spinner("AI is at Work........"):
     # text generation
     gpt_text = ai.generate_one(prompt=prompt_text,
             max_length = 100 )
-st.success("AI Successfully generated the below text ")
+st.success("The AI Successfully generated the below text ")
 # st.balloons()
 # print ai generated text
 print(gpt_text)
